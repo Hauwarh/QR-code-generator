@@ -90,7 +90,7 @@ git push origin my-new-feature
 Create a Pull Request: Go to the original repository and create a pull request.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE]((https://license/?form=MG0AV3)
+This project is licensed under the MIT License. See the [LICENSE](https://license/?form=MG0AV3)
  file for more information.
 
 
