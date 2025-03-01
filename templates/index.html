@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8' content='width:device-width, initial-scale:1.0'/>
-        <title>QRIT</title>
-        <link rel="stylesheet" href=" {{url_for('static', filename='style.css')}} "/>
-    </head>
-    <body>
-        <div class="container">
-            <form class="form" action="/makeQr" method="POST" accept-charset="utf-8">
-                <input type="text" name="data" id="data" placeholder="Enter Data To convert" autocomplete="off"/>
-                <input type="submit" name="submit" id="submit" value="Submit" />
-            </form>
-            <div class="output">
-                <!--Output here-->
-                <img class="qr" src=" {{url_for('static', filename='image.jpg')}} " alt="qrcode" />
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple QR Code Generator application">
+    <title>QRIT - QR Code Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>QR Code Generator</h1>
+            <h2>Enter data below to generate a QR Code</h2>
         </div>
-    </body>
+        <form class="form" action="/makeQr" method="POST">
+            <input type="text" name="data" id="data" placeholder="Enter Data" autocomplete="off" required>
+            <input type="submit" name="submit" id="submit" value="Generate QR Code">
+        </form>
+        <div class="output">
+            {% if url_for('static', filename='image.jpg') %}
+            <h3>Your QR Code:</h3>
+            <img class="qr" src="{{ url_for('static', filename='image.jpg') }}" alt="QR Code">
+            {% endif %}
+        </div>
+    </div>
+</body>
 </html>
