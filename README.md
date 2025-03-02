@@ -1,11 +1,13 @@
 # QR-code-generator
 
-An open-source QR Code Generator application.
+An open-source [QR Code Generator](http://provider.hurricane.akash.pub:31527/)
+ application.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -20,6 +22,14 @@ This project is a QR Code Generator designed to create QR codes for various type
 - Generate QR codes for different types of data (URLs, text, contact information, etc.)
 - Save QR codes as image files
 - Open-source and easy to customize
+
+## Demo
+Demo video of the QR generator
+
+https://github.com/user-attachments/assets/444c3937-f051-4fdc-8651-650fdb1f6e3e
+
+Link to live demo deployed on Akash: [QR Generator](http://provider.hurricane.akash.pub:31527/)
+
 
 ## Installation
 
