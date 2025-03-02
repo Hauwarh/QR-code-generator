@@ -24,7 +24,7 @@ This project is a QR Code Generator designed to create QR codes for various type
 - Open-source and easy to customize
 
 ## Demo
-Demo video of the QR generator
+Demo video of the QR Code generator
 
 https://github.com/user-attachments/assets/444c3937-f051-4fdc-8651-650fdb1f6e3e
 
