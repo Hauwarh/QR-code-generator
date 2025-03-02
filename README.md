@@ -28,7 +28,7 @@ Demo video of the QR Code generator
 
 https://github.com/user-attachments/assets/444c3937-f051-4fdc-8651-650fdb1f6e3e
 
-Link to live demo deployed on Akash: [QR Generator](http://provider.hurricane.akash.pub:31527/)
+Link to live demo deployed on Akash: [QR Code Generator](http://provider.hurricane.akash.pub:31527/)
 
 
 ## Installation
